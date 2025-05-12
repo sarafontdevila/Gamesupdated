@@ -18,7 +18,7 @@ export const initCrush = () => {
   const stop = document.createElement('button')
   const audio = document.createElement('audio')
 
-  audio.src = './assets/crush/catch.mp3'
+  audio.src = './crush/catch.mp3'
   textConta.textContent = Count
   textConta.className = 'contador'
   carrito.className = 'carrito'
